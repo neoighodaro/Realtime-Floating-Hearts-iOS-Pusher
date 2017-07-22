@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54174C89F9B81D8DC3685958 /* Pods_streamlove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0BA63DFCBFC5F8E3FE7605 /* Pods_streamlove.framework */; };
+		B56120231F23A5A200A27547 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56120221F23A5A200A27547 /* VideoSplashViewController.swift */; };
+		B56120261F23A61100A27547 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56120251F23A61100A27547 /* VideoCutter.swift */; };
+		B56120281F23B0E100A27547 /* Floater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56120271F23B0E100A27547 /* Floater.swift */; };
+		B561202B1F23B7FA00A27547 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = B561202A1F23B7FA00A27547 /* heart.png */; };
+		B561202D1F23BD8E00A27547 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B561202C1F23BD8E00A27547 /* video.mp4 */; };
 		B56FA5741F2372C700CF8422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA5731F2372C700CF8422 /* AppDelegate.swift */; };
 		B56FA5761F2372C700CF8422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA5751F2372C700CF8422 /* ViewController.swift */; };
 		B56FA5791F2372C700CF8422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56FA5771F2372C700CF8422 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DD359174852BF8DDA3B9368 /* Pods-streamlove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamlove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-streamlove/Pods-streamlove.debug.xcconfig"; sourceTree = "<group>"; };
+		B56120221F23A5A200A27547 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoSplashViewController.swift; path = VideoSplashKit/VideoSplashViewController.swift; sourceTree = "<group>"; };
+		B56120251F23A61100A27547 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCutter.swift; path = VideoSplashKit/VideoCutter.swift; sourceTree = "<group>"; };
+		B56120271F23B0E100A27547 /* Floater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Floater.swift; path = Floaters/Floater.swift; sourceTree = "<group>"; };
+		B561202A1F23B7FA00A27547 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		B561202C1F23BD8E00A27547 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		B56FA5701F2372C700CF8422 /* streamlove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamlove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56FA5731F2372C700CF8422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B56FA5751F2372C700CF8422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		B56FA57A1F2372C700CF8422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B56FA57D1F2372C700CF8422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B56FA57F1F2372C700CF8422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F3934EA75227618AD38E53 /* Pods-streamlove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamlove.release.xcconfig"; path = "Pods/Target Support Files/Pods-streamlove/Pods-streamlove.release.xcconfig"; sourceTree = "<group>"; };
+		BE0BA63DFCBFC5F8E3FE7605 /* Pods_streamlove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamlove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54174C89F9B81D8DC3685958 /* Pods_streamlove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17F6D44E2DC5C91AABEC58B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DD359174852BF8DDA3B9368 /* Pods-streamlove.debug.xcconfig */,
+				B8F3934EA75227618AD38E53 /* Pods-streamlove.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B56120241F23A5A800A27547 /* VideoSplashKit */ = {
+			isa = PBXGroup;
+			children = (
+				B56120221F23A5A200A27547 /* VideoSplashViewController.swift */,
+				B56120251F23A61100A27547 /* VideoCutter.swift */,
+			);
+			name = VideoSplashKit;
+			sourceTree = "<group>";
+		};
+		B56120291F23B0FA00A27547 /* Floater */ = {
+			isa = PBXGroup;
+			children = (
+				B56120271F23B0E100A27547 /* Floater.swift */,
+			);
+			name = Floater;
+			sourceTree = "<group>";
+		};
 		B56FA5671F2372C700CF8422 = {
 			isa = PBXGroup;
 			children = (
 				B56FA5721F2372C700CF8422 /* streamlove */,
 				B56FA5711F2372C700CF8422 /* Products */,
+				17F6D44E2DC5C91AABEC58B9 /* Pods */,
+				CAED682D5EDBCA3987B49F50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +100,23 @@
 				B56FA5731F2372C700CF8422 /* AppDelegate.swift */,
 				B56FA5751F2372C700CF8422 /* ViewController.swift */,
 				B56FA5771F2372C700CF8422 /* Main.storyboard */,
+				B561202C1F23BD8E00A27547 /* video.mp4 */,
 				B56FA57A1F2372C700CF8422 /* Assets.xcassets */,
 				B56FA57C1F2372C700CF8422 /* LaunchScreen.storyboard */,
+				B561202A1F23B7FA00A27547 /* heart.png */,
 				B56FA57F1F2372C700CF8422 /* Info.plist */,
+				B56120241F23A5A800A27547 /* VideoSplashKit */,
+				B56120291F23B0FA00A27547 /* Floater */,
 			);
 			path = streamlove;
+			sourceTree = "<group>";
+		};
+		CAED682D5EDBCA3987B49F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BA63DFCBFC5F8E3FE7605 /* Pods_streamlove.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56FA5821F2372C700CF8422 /* Build configuration list for PBXNativeTarget "streamlove" */;
 			buildPhases = (
+				075F38046B689ABB4972790B /* [CP] Check Pods Manifest.lock */,
 				B56FA56C1F2372C700CF8422 /* Sources */,
 				B56FA56D1F2372C700CF8422 /* Frameworks */,
 				B56FA56E1F2372C700CF8422 /* Resources */,
+				8D0F75898A4A871EB606E300 /* [CP] Embed Pods Frameworks */,
+				CD094B152A22CA6FA2BF14CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +155,7 @@
 					B56FA56F1F2372C700CF8422 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = FMQ6R58UAV;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,12 +184,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56FA57E1F2372C700CF8422 /* LaunchScreen.storyboard in Resources */,
+				B561202D1F23BD8E00A27547 /* video.mp4 in Resources */,
 				B56FA57B1F2372C700CF8422 /* Assets.xcassets in Resources */,
+				B561202B1F23B7FA00A27547 /* heart.png in Resources */,
 				B56FA5791F2372C700CF8422 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		075F38046B689ABB4972790B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0F75898A4A871EB606E300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-streamlove/Pods-streamlove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD094B152A22CA6FA2BF14CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-streamlove/Pods-streamlove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B56FA56C1F2372C700CF8422 /* Sources */ = {
@@ -138,7 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56FA5761F2372C700CF8422 /* ViewController.swift in Sources */,
+				B56120281F23B0E100A27547 /* Floater.swift in Sources */,
 				B56FA5741F2372C700CF8422 /* AppDelegate.swift in Sources */,
+				B56120261F23A61100A27547 /* VideoCutter.swift in Sources */,
+				B56120231F23A5A200A27547 /* VideoSplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +294,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +344,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,6 +371,7 @@
 		};
 		B56FA5831F2372C700CF8422 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD359174852BF8DDA3B9368 /* Pods-streamlove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FMQ6R58UAV;
@@ -270,6 +385,7 @@
 		};
 		B56FA5841F2372C700CF8422 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F3934EA75227618AD38E53 /* Pods-streamlove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FMQ6R58UAV;
@@ -300,6 +416,7 @@
 				B56FA5841F2372C700CF8422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
